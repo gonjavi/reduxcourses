@@ -1,3 +1,5 @@
+import React from 'react';
+
 class DisplayMessages extends React.Component {
   constructor(props) {
     super(props);
@@ -37,3 +39,5 @@ submitMessage() {
     );
   }
 };
+
+export default DisplayMessages;
